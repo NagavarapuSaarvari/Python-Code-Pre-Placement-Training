@@ -15,4 +15,4 @@ for i in range(1,rows+1):
             num += 1
             if j<i:
                 print("*",end=' ')
-    print()
+    print()             
