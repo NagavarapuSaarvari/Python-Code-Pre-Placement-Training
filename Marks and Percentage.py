@@ -13,4 +13,4 @@ for i in range(5):
     perc.append(tot//3)
 print()
 for i in range(5):
-    print(f"{i+1}. {names[i]}:{perc[4-i]}%")
+    print(f"{i+1}.{names[i]}: {perc[4-i]}%")
