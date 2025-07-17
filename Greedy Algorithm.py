@@ -13,5 +13,5 @@ while amt > 0:
         if pos:
             notes.append(i)
             count.append(c)
-print(notes)
-print(count)
+for i in range(len(notes)):
+    print(f"{count[i]} notes of Rs.{notes[i]}")
