@@ -1,6 +1,5 @@
 amt = int(input("Enter the amount: "))
-denominations = [1,2,5,10,20,50,100,200,500]
-denominations.sort(reverse=True)
+denominations = [500,200,100,50,20,10,5,2,1]
 notes = []
 count = []
 while amt > 0:
